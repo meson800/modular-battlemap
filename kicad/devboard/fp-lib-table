@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "mesonlib")(type "KiCad")(uri "${KIPRJMOD}/../mesonlib.pretty")(options "")(descr ""))
+)
