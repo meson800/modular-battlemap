@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CSTNE8M00G550000R0
+D Resonators 8.0000MHz 33pF SMD CHP Resntr
+K
+F https://www.murata.com/products/productdata/8801159905310/SPEC-CSTNE8M00G550000R0.pdf
+$ENDCMP
+#
+#End Doc Library

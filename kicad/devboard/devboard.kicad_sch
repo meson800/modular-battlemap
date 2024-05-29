@@ -1007,304 +1007,6 @@
 				)
 			)
 		)
-		(symbol "Device:Resonator"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Y"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Resonator"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -0.635 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at -0.635 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Three pin ceramic resonator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "ceramic resonator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Filter* Resonator*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resonator_0_1"
-				(rectangle
-					(start -3.429 -3.175)
-					(end -1.397 -3.429)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -3.429 -2.413)
-					(end -1.397 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center -2.413 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start -1.016 2.032)
-					(end 1.016 -2.032)
-					(stroke
-						(width 0.3048)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 -3.81)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.413 -2.413) (xy -2.413 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 0) (xy -3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -1.27) (xy -1.778 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.778 -1.27) (xy 1.778 1.27)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.905 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 0) (xy 2.413 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.413 -3.302) (xy 2.413 -3.81) (xy -2.413 -3.81) (xy -2.413 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 1.397 -3.175)
-					(end 3.429 -3.429)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 1.397 -2.413)
-					(end 3.429 -2.667)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.413 0)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Resonator_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 1.27)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:Thermistor_PTC"
 			(pin_numbers hide)
 			(pin_names
@@ -2996,32 +2698,50 @@
 				)
 			)
 		)
-		(symbol "Switch:SW_Push"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "mesonlib:CSTNE8M00G550000R0"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
+			(property "Reference" "U"
+				(at 21.59 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "SW_Push"
-				(at 0 -1.524 0)
+			(property "Value" "CSTNE8M00G550000R0"
+				(at 21.59 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" ""
-				(at 0 5.08 0)
+			(property "Footprint" "CSTNE16M0V530000R0"
+				(at 21.59 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/products/productdata/8801159905310/SPEC-CSTNE8M00G550000R0.pdf"
+				(at 21.59 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resonators 8.0000MHz 33pF SMD CHP Resntr"
+				(at 8.636 12.7 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3029,84 +2749,72 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
+			(property "Height" "1"
+				(at 21.59 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
+			(property "Mouser Part Number" "81-CSTNE8M00G550000R"
+				(at 21.59 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/CSTNE8M00G550000R0?qs=y6ZabgHbY%252BzeBq2Vg%2FdAYw%3D%3D"
+				(at 21.59 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 21.59 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(fill
-						(type none)
-					)
+					(justify left top)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
+			)
+			(property "Manufacturer_Part_Number" "CSTNE8M00G550000R0"
+				(at 21.59 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
 					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
+					(justify left top)
+					(hide yes)
 				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
+			)
+			(symbol "CSTNE8M00G550000R0_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 20.32 -7.62)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type background)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
+					(at 0 0 0)
+					(length 5.08)
+					(name "INPUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3122,9 +2830,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3132,6 +2840,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "OUTPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3257,6 +2983,193 @@
 						)
 					)
 					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "mesonlib:PTS526_SM15_SMTR2_LFS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "S"
+				(at 26.67 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "PTS526_SM15_SMTR2_LFS"
+				(at 26.67 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "PTS526SM15SMTR2LFS"
+				(at 26.67 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
+				(at 11.176 9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.5"
+				(at 26.67 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "611-PTS526SM15SMTR2L"
+				(at 26.67 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D"
+				(at 26.67 -594.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "C & K COMPONENTS"
+				(at 26.67 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "PTS526 SM15 SMTR2 LFS"
+				(at 26.67 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "PTS526_SM15_SMTR2_LFS_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "COM_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "COM_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "NO_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "NO_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4534,13 +4447,19 @@
 		(uuid "01b66254-a5b5-4317-a640-001d6c5a8a5d")
 	)
 	(junction
+		(at 123.19 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0c2dfb01-b11f-43eb-8802-a169ebcabafa")
+	)
+	(junction
 		(at 204.47 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "141da759-b6d6-4242-92b8-d7bff20b6bbf")
 	)
 	(junction
-		(at 232.41 50.8)
+		(at 248.92 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "17f1c191-c058-4b66-b5ec-05abc45ef833")
@@ -4582,7 +4501,13 @@
 		(uuid "ac9c5207-50d2-4d90-b111-e8aa5b67745a")
 	)
 	(junction
-		(at 240.03 40.64)
+		(at 146.05 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b7aa2195-23bd-423d-99eb-a9e8e4b37a3d")
+	)
+	(junction
+		(at 256.54 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b9227f5e-4957-4309-8e95-26cb69acc78d")
@@ -4799,16 +4724,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 49.53) (xy 240.03 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b02eb47-4603-4939-a670-20faf3ab932e")
-	)
-	(wire
-		(pts
 			(xy 106.68 81.28) (xy 115.57 81.28)
 		)
 		(stroke
@@ -4816,6 +4731,16 @@
 			(type default)
 		)
 		(uuid "1c119ff0-0721-4ce7-83f4-768b7bc0c29f")
+	)
+	(wire
+		(pts
+			(xy 149.86 92.71) (xy 153.67 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e0b9167-3983-487f-97cc-4a493514f8a0")
 	)
 	(wire
 		(pts
@@ -4909,6 +4834,26 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 45.72) (xy 241.3 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cda6dcd-5f58-41c4-8bef-d18bcda5f1ab")
+	)
+	(wire
+		(pts
+			(xy 194.31 104.14) (xy 194.31 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ed9a21e-8789-40f3-9f47-6a2e3b181c0a")
+	)
+	(wire
+		(pts
 			(xy 128.27 120.65) (xy 128.27 124.46)
 		)
 		(stroke
@@ -4969,7 +4914,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 40.64) (xy 240.03 41.91)
+			(xy 256.54 45.72) (xy 256.54 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4996,6 +4941,16 @@
 			(type default)
 		)
 		(uuid "4fc85f02-cdbd-4c34-b164-36ab76d04244")
+	)
+	(wire
+		(pts
+			(xy 238.76 78.74) (xy 238.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50bd2149-474f-4668-9356-360e2955a507")
 	)
 	(wire
 		(pts
@@ -5049,7 +5004,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 50.8) (xy 232.41 50.8)
+			(xy 256.54 81.28) (xy 248.92 81.28)
 		)
 		(stroke
 			(width 0)
@@ -5109,7 +5064,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 40.64) (xy 242.57 40.64)
+			(xy 256.54 45.72) (xy 259.08 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5126,6 +5081,26 @@
 			(type default)
 		)
 		(uuid "6cb272a1-c5a9-4d1d-bdf2-50eff95a0c14")
+	)
+	(wire
+		(pts
+			(xy 123.19 146.05) (xy 123.19 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d784422-9c01-4131-b83a-4b1729674ae7")
+	)
+	(wire
+		(pts
+			(xy 167.64 88.9) (xy 167.64 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e463c62-c11f-4ff5-83ef-28f4e895bf27")
 	)
 	(wire
 		(pts
@@ -5159,6 +5134,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 100.33) (xy 167.64 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75a73541-8187-4c41-a0e2-5adba5358409")
+	)
+	(wire
+		(pts
 			(xy 143.51 111.76) (xy 152.4 111.76)
 		)
 		(stroke
@@ -5176,6 +5161,16 @@
 			(type default)
 		)
 		(uuid "7d052769-29a8-40c4-b7ca-39de0b289d91")
+	)
+	(wire
+		(pts
+			(xy 123.19 148.59) (xy 123.19 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "857fb65c-b67c-4d38-aed2-11667a00a8f0")
 	)
 	(wire
 		(pts
@@ -5199,6 +5194,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 81.28) (xy 248.92 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ce38c19-3ed7-4acc-9b24-99bbff5573e8")
+	)
+	(wire
+		(pts
 			(xy 76.2 39.37) (xy 76.2 43.18)
 		)
 		(stroke
@@ -5219,13 +5224,13 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 50.8) (xy 224.79 50.8)
+			(xy 143.51 104.14) (xy 194.31 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "952c4a5d-8b73-4055-a019-c3222576666e")
+		(uuid "95b0c4c0-355d-465c-b3b0-d99ab5af9dbf")
 	)
 	(wire
 		(pts
@@ -5236,6 +5241,16 @@
 			(type default)
 		)
 		(uuid "98213bfd-ddad-452f-81e6-5ea1f76da8bc")
+	)
+	(wire
+		(pts
+			(xy 146.05 146.05) (xy 146.05 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bb86b1e-096b-40a4-b39c-8e61878adef2")
 	)
 	(wire
 		(pts
@@ -5259,13 +5274,33 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 40.64) (xy 240.03 40.64)
+			(xy 241.3 45.72) (xy 256.54 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9f547845-a211-4dfa-9d85-54b7ff3c6eea")
+	)
+	(wire
+		(pts
+			(xy 146.05 148.59) (xy 146.05 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a05d3e87-533c-44f4-900b-5b64b5af73e3")
+	)
+	(wire
+		(pts
+			(xy 130.81 148.59) (xy 132.08 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b6b394-a3f1-4103-8574-9a994036f27e")
 	)
 	(wire
 		(pts
@@ -5276,6 +5311,16 @@
 			(type default)
 		)
 		(uuid "a28b8db2-98c1-4823-b330-e14864066853")
+	)
+	(wire
+		(pts
+			(xy 153.67 148.59) (xy 154.94 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8f9d80-5745-40a1-b1c4-7d74e5382763")
 	)
 	(wire
 		(pts
@@ -5299,6 +5344,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 63.5) (xy 256.54 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2ade7bb-b005-41aa-aa27-4ae9f7c3d0bc")
+	)
+	(wire
+		(pts
 			(xy 60.96 91.44) (xy 60.96 114.3)
 		)
 		(stroke
@@ -5306,16 +5361,6 @@
 			(type default)
 		)
 		(uuid "b4b4fa04-d10f-4b59-8d07-1bfb0e53a816")
-	)
-	(wire
-		(pts
-			(xy 176.53 96.52) (xy 177.8 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b766f13c-cad1-435f-a09c-8a7ca41b7d57")
 	)
 	(wire
 		(pts
@@ -5389,6 +5434,16 @@
 	)
 	(wire
 		(pts
+			(xy 194.31 88.9) (xy 167.64 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d28a1544-a8c5-41c7-bb71-788de9ca0e56")
+	)
+	(wire
+		(pts
 			(xy 215.9 101.6) (xy 222.25 101.6)
 		)
 		(stroke
@@ -5449,16 +5504,6 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 104.14) (xy 171.45 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2123a13-3906-42db-811d-ccc43dcf5bc7")
-	)
-	(wire
-		(pts
 			(xy 60.96 114.3) (xy 62.23 114.3)
 		)
 		(stroke
@@ -5479,16 +5524,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 92.71) (xy 171.45 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaec953c-c459-4fe3-9fce-5cc8635b8d75")
-	)
-	(wire
-		(pts
 			(xy 93.98 78.74) (xy 107.95 78.74)
 		)
 		(stroke
@@ -5496,16 +5531,6 @@
 			(type default)
 		)
 		(uuid "ec98bc8c-cd7a-40b8-af4c-9fa4eed2e953")
-	)
-	(wire
-		(pts
-			(xy 171.45 104.14) (xy 171.45 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecb1421c-fddb-45a9-ac0a-719fd93714bb")
 	)
 	(wire
 		(pts
@@ -5536,6 +5561,16 @@
 			(type default)
 		)
 		(uuid "f27c4fe7-7143-4180-98fe-f9605809c1f6")
+	)
+	(wire
+		(pts
+			(xy 161.29 92.71) (xy 161.29 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7e472af-978a-49f2-9628-95f07955dfe5")
 	)
 	(wire
 		(pts
@@ -5600,7 +5635,7 @@
 		(uuid "315a0234-a29a-4f35-9470-5c4523ff3e75")
 	)
 	(label "RESET"
-		(at 242.57 40.64 0)
+		(at 259.08 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5686,6 +5721,72 @@
 			(justify left bottom)
 		)
 		(uuid "e9130d9f-41b8-452b-8581-6ef346cd30bb")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 154.94 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "07787ab3-2c77-431c-b2d4-c54f6accd806")
+		(property "Reference" "#PWR025"
+			(at 161.29 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 154.94 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4e3bc9f6-290f-4779-abd3-e3373c6d6f76")
+		)
+		(instances
+			(project "devboard"
+				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -5779,7 +5880,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_Molex_105450-0101"
 			(at 33.02 90.17 0)
 			(effects
 				(font
@@ -6025,7 +6126,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 204.47 40.64 0)
+		(at 207.01 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6034,7 +6135,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e0cee9d-ce0f-45f2-b91d-032160ab8047")
 		(property "Reference" "#PWR019"
-			(at 204.47 44.45 0)
+			(at 207.01 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6043,7 +6144,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 204.47 35.56 0)
+			(at 207.01 15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +6152,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 40.64 0)
+			(at 207.01 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +6161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 40.64 0)
+			(at 207.01 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +6170,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 204.47 40.64 0)
+			(at 207.01 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6183,7 +6284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 72.0852 124.46 0)
 			(effects
 				(font
@@ -6428,7 +6529,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 50.8 0)
+		(at 248.92 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6437,7 +6538,7 @@
 		(fields_autoplaced yes)
 		(uuid "45633b85-4b45-44f4-a965-d5f36debaa24")
 		(property "Reference" "#PWR023"
-			(at 232.41 57.15 0)
+			(at 248.92 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6446,7 +6547,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 55.88 0)
+			(at 248.92 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6454,7 +6555,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 50.8 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6463,7 +6564,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 50.8 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6472,7 +6573,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 50.8 0)
+			(at 248.92 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6626,6 +6727,267 @@
 		)
 	)
 	(symbol
+		(lib_id "mesonlib:PTS526_SM15_SMTR2_LFS")
+		(at 238.76 78.74 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5573324c-f6c4-4b7b-895a-0fa2617371d3")
+		(property "Reference" "S2"
+			(at 245.11 62.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTS526_SM15_SMTR2_LFS"
+			(at 234.442 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mesonlib:PTS526SM15SMTR2LFS"
+			(at 333.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 433.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
+			(at 229.616 67.564 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.5"
+			(at 633.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SM15SMTR2L"
+			(at 733.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D"
+			(at 833.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 933.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SM15 SMTR2 LFS"
+			(at 1033.68 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4f943c73-196c-43fc-8451-ad4c5ddc8982")
+		)
+		(pin "2"
+			(uuid "3dad8baf-09b8-4c1e-bdbb-a47907af8284")
+		)
+		(pin "3"
+			(uuid "cf11f32f-3993-42cd-b668-315f4754dba1")
+		)
+		(pin "1"
+			(uuid "2f471ea6-e234-4870-a283-6c4ad165db40")
+		)
+		(instances
+			(project "devboard"
+				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+					(reference "S2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 157.48 92.71 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56838639-9903-4fed-af13-ca8f8bd3a6fe")
+		(property "Reference" "R5"
+			(at 157.48 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "603"
+			(at 157.48 88.9 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 157.48 94.488 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 157.48 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "73c38f92-bcb1-4213-bca0-ecd07e713756")
+		)
+		(pin "2"
+			(uuid "efd4ed94-a594-48a6-a0bc-cf36c4cfa587")
+		)
+		(instances
+			(project "devboard"
+				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59a2bde4-af29-44b5-ba5a-654273239ec9")
+		(property "Reference" "#PWR024"
+			(at 138.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.16 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e749c588-3fb9-490e-abc1-9c76f998df82")
+		)
+		(instances
+			(project "devboard"
+				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x04_Socket")
 		(at 227.33 96.52 0)
 		(unit 1)
@@ -6653,7 +7015,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical_SMD_Pin1Right"
 			(at 227.33 96.52 0)
 			(effects
 				(font
@@ -6768,8 +7130,132 @@
 		)
 	)
 	(symbol
+		(lib_id "mesonlib:CSTNE8M00G550000R0")
+		(at 167.64 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "616b3255-6987-49f9-b63e-eb8b19d21426")
+		(property "Reference" "U4"
+			(at 189.23 96.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "CSTNE8M00G550000R0"
+			(at 168.91 91.186 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "mesonlib:CSTNE16M0V530000R0"
+			(at 189.23 190.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdata/8801159905310/SPEC-CSTNE8M00G550000R0.pdf"
+			(at 189.23 290.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resonators 8.0000MHz 33pF SMD CHP Resntr"
+			(at 176.276 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 189.23 490.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-CSTNE8M00G550000R"
+			(at 189.23 590.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/CSTNE8M00G550000R0?qs=y6ZabgHbY%252BzeBq2Vg%2FdAYw%3D%3D"
+			(at 189.23 690.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 189.23 790.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CSTNE8M00G550000R0"
+			(at 189.23 890.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e96bba14-ba14-4325-8a5c-0629d296a2c1")
+		)
+		(pin "3"
+			(uuid "c15b838a-6474-4f54-8558-9f4eb6d0185e")
+		)
+		(pin "2"
+			(uuid "02da15a6-c460-4fac-bc9b-57b18eb1b213")
+		)
+		(instances
+			(project "devboard"
+				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
-		(at 123.19 149.86 0)
+		(at 123.19 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6778,7 +7264,7 @@
 		(fields_autoplaced yes)
 		(uuid "62b00ef2-f366-466f-9ee2-48f116ca8a4e")
 		(property "Reference" "#PWR010"
-			(at 123.19 153.67 0)
+			(at 123.19 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,7 +7273,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 123.19 144.78 0)
+			(at 123.19 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +7281,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 149.86 0)
+			(at 123.19 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6804,7 +7290,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 149.86 0)
+			(at 123.19 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6813,7 +7299,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 123.19 149.86 0)
+			(at 123.19 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6861,7 +7347,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 202.692 63.5 90)
 			(effects
 				(font
@@ -6904,79 +7390,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Resonator")
-		(at 171.45 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "671c344e-39ab-4835-9338-d6efbe336736")
-		(property "Reference" "Y2"
-			(at 167.64 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "8MHz resonator"
-			(at 167.64 97.7899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 97.155 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Three pin ceramic resonator (Murata CSTNE8M00GH5C000R0)"
-			(at 171.45 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aedaaa78-c300-4153-812c-5ce325d46675")
-		)
-		(pin "3"
-			(uuid "0caa5fe3-bc48-4441-9de8-9a516f641390")
-		)
-		(pin "2"
-			(uuid "d02e7cc0-005c-40ff-9ec3-e50417e6a7e1")
-		)
-		(instances
-			(project "devboard"
-				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
-					(reference "Y2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 97.79 35.56 0)
 		(unit 1)
@@ -7004,7 +7417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 98.7552 39.37 0)
 			(effects
 				(font
@@ -7047,76 +7460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 204.47 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69380753-59df-4ab1-9e0e-7ecbb84ec837")
-		(property "Reference" "SW1"
-			(at 205.74 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 205.74 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 199.39 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 204.47 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0d2d6587-dfc5-429e-ae4f-34fb9c422986")
-		)
-		(pin "2"
-			(uuid "99d1e28a-34c1-49e5-803a-90afcc7749dc")
-		)
-		(instances
-			(project "devboard"
-				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
-					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:WS2812B-2020")
 		(at 146.05 157.48 0)
 		(unit 1)
@@ -7126,7 +7469,7 @@
 		(dnp no)
 		(uuid "69bd72d6-302c-47a4-bfce-479891f1ae98")
 		(property "Reference" "D3"
-			(at 158.75 147.828 0)
+			(at 158.242 164.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7477,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 158.75 150.368 0)
+			(at 158.242 166.878 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7186,6 +7529,75 @@
 			(project "devboard"
 				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 127 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6fd720d6-d7a6-49cf-bd3d-5cc76cebae1e")
+		(property "Reference" "C7"
+			(at 131.318 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 131.318 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 130.81 147.6248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 127 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d53a5cff-6ff1-4ca4-ac53-cf093be5f6af")
+		)
+		(pin "1"
+			(uuid "581076ba-3005-4805-9bdc-c737a15333a2")
+		)
+		(instances
+			(project "devboard"
+				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -7283,7 +7695,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 170.18 55.118 90)
 			(effects
 				(font
@@ -7353,7 +7765,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 23.368 137.16 90)
 			(effects
 				(font
@@ -7390,76 +7802,6 @@
 			(project "devboard"
 				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 224.79 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cb77740-46aa-45c8-8273-b0ebf4707415")
-		(property "Reference" "SW2"
-			(at 226.06 44.4499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SW_Push"
-			(at 226.06 46.9899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 224.79 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0a77140-5145-44bf-b587-3cafe4663360")
-		)
-		(pin "2"
-			(uuid "4352efc0-c853-46f5-baca-674a1d625d51")
-		)
-		(instances
-			(project "devboard"
-				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -7541,7 +7883,7 @@
 		(dnp no)
 		(uuid "84fedec4-e2c8-428d-a113-33bfaef4ae9e")
 		(property "Reference" "D2"
-			(at 133.858 147.574 0)
+			(at 133.35 164.592 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7549,7 +7891,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 133.858 150.114 0)
+			(at 133.35 167.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8055,6 +8397,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 167.64 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf2e8955-8b83-472d-9324-c694623d7375")
+		(property "Reference" "#PWR018"
+			(at 161.29 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 166.116 95.758 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0cee5bf3-29a9-41d0-b638-ffed005cc37a")
+		)
+		(instances
+			(project "devboard"
+				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.27 128.27 0)
 		(unit 1)
@@ -8082,7 +8490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 129.2352 132.08 0)
 			(effects
 				(font
@@ -8150,7 +8558,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 66.04 114.3 0)
 			(effects
 				(font
@@ -8327,7 +8735,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 146.05 149.86 0)
+		(at 146.05 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8336,7 +8744,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce55f102-448f-4da7-8fcf-b6d57384b58a")
 		(property "Reference" "#PWR015"
-			(at 146.05 153.67 0)
+			(at 146.05 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8753,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 146.05 144.78 0)
+			(at 146.05 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,7 +8761,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 149.86 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8362,7 +8770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 149.86 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8371,7 +8779,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 146.05 149.86 0)
+			(at 146.05 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8458,73 +8866,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 177.8 96.52 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "db4ed7a3-3dab-444f-9474-389e194d2ca1")
-		(property "Reference" "#PWR018"
-			(at 184.15 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 181.61 96.5199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 177.8 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4a6fa785-afe7-45db-9a20-13567c798873")
-		)
-		(instances
-			(project "devboard"
-				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
-					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 50.8 52.07 0)
 		(unit 1)
@@ -8552,7 +8893,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 49.022 52.07 90)
 			(effects
 				(font
@@ -8621,7 +8962,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 61.9252 124.46 0)
 			(effects
 				(font
@@ -8665,7 +9006,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 240.03 45.72 0)
+		(at 256.54 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8674,7 +9015,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9e61aa1-cc53-49dc-905b-8cc14a37e9f0")
 		(property "Reference" "C6"
-			(at 243.84 44.4499 0)
+			(at 260.35 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8683,7 +9024,7 @@
 			)
 		)
 		(property "Value" "0.1 uF"
-			(at 243.84 46.9899 0)
+			(at 260.35 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,8 +9032,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 240.9952 49.53 0)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 257.5052 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8701,7 +9042,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 240.03 45.72 0)
+			(at 256.54 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8710,7 +9051,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 240.03 45.72 0)
+			(at 256.54 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8761,7 +9102,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 56.8452 39.37 0)
 			(effects
 				(font
@@ -8798,6 +9139,202 @@
 			(project "devboard"
 				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mesonlib:PTS526_SM15_SMTR2_LFS")
+		(at 204.47 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f0db33e7-533d-40dc-8430-0c1aa04d9219")
+		(property "Reference" "S1"
+			(at 210.82 34.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTS526_SM15_SMTR2_LFS"
+			(at 200.152 23.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "mesonlib:PTS526SM15SMTR2LFS"
+			(at 299.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 399.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Tactile Switches 50mA 12VDC, 5.2x5.2mm, 1.5mm H, 160gf, G leads, No ground pin, metal actuator"
+			(at 195.326 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.5"
+			(at 599.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "611-PTS526SM15SMTR2L"
+			(at 699.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/PTS526-SM15-SMTR2-LFS?qs=UXgszm6BlbENivbslIA%252B5g%3D%3D"
+			(at 799.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "C & K COMPONENTS"
+			(at 899.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "PTS526 SM15 SMTR2 LFS"
+			(at 999.39 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "144bcc53-9ea8-4005-8296-62813d9dcc53")
+		)
+		(pin "2"
+			(uuid "8bf0b774-fc33-4c9d-805b-9e5d53752769")
+		)
+		(pin "3"
+			(uuid "12b758f9-f955-438d-92a9-645bd3d8249c")
+		)
+		(pin "1"
+			(uuid "5a35e6d7-d00e-4c5f-ab36-c4b0d980d701")
+		)
+		(instances
+			(project "devboard"
+				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 149.86 148.59 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f1a8eeb0-c32f-4e58-9400-ddd38ce98444")
+		(property "Reference" "C8"
+			(at 154.178 147.066 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100 nF"
+			(at 154.178 144.526 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+			(at 153.67 147.6248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 149.86 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1ba7dad-1b2b-44da-840b-088f13fa7e8a")
+		)
+		(pin "1"
+			(uuid "0b45666f-2828-48c1-9de6-25e1dfcb70b1")
+		)
+		(instances
+			(project "devboard"
+				(path "/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+					(reference "C8")
 					(unit 1)
 				)
 			)
