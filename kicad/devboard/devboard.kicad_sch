@@ -8201,7 +8201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mesonlib:Eaton PTS120616V025"
 			(at 38.1 33.02 0)
 			(effects
 				(font
