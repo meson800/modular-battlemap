@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP EEU-FR1V330
+D Aluminium Electrolytic Capacitor, Radial Lead Type, 105C,  33UF 20% 35V RADIAL
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDF0000/ABA0000C1259.pdf
+$ENDCMP
+#
+#End Doc Library
