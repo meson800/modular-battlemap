@@ -5189,12 +5189,6 @@
 		(uuid "0c2dfb01-b11f-43eb-8802-a169ebcabafa")
 	)
 	(junction
-		(at 124.46 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "125e9dfa-e283-4ee5-ab32-3b9bb3e78c91")
-	)
-	(junction
 		(at 219.71 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6010,16 +6004,6 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 72.39) (xy 121.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c9d1b53-91b5-4340-8723-87f15e2128de")
-	)
-	(wire
-		(pts
 			(xy 232.41 91.44) (xy 232.41 93.98)
 		)
 		(stroke
@@ -6117,16 +6101,6 @@
 			(type default)
 		)
 		(uuid "8f64b64a-9dc9-4126-b5fd-87306bd6a03e")
-	)
-	(wire
-		(pts
-			(xy 124.46 68.58) (xy 124.46 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9314b758-f68c-4604-a822-683097782962")
 	)
 	(wire
 		(pts
@@ -6490,16 +6464,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 64.77) (xy 121.92 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d45d64fb-1dda-472a-ada2-d305676189d7")
-	)
-	(wire
-		(pts
 			(xy 231.14 101.6) (xy 237.49 101.6)
 		)
 		(stroke
@@ -6630,7 +6594,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 76.2) (xy 124.46 76.2)
+			(xy 130.81 76.2) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6640,7 +6604,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 54.61) (xy 219.71 54.61)
+			(xy 205.74 54.61) (xy 219.71 54.61)
 		)
 		(stroke
 			(width 0)
@@ -6660,7 +6624,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 72.39) (xy 124.46 76.2)
+			(xy 121.92 68.58) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -6710,18 +6674,7 @@
 		)
 		(uuid "0ae83ef6-9c98-400c-8d2c-2fb5334ce8f6")
 	)
-	(label "SWCLK"
-		(at 121.92 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c91ae43-5f95-498a-8344-b4c9e63048a1")
-	)
-	(label "SWCLK"
+	(label "SWCLK{slash}BOOT"
 		(at 209.55 128.27 0)
 		(fields_autoplaced yes)
 		(effects
@@ -6743,8 +6696,8 @@
 		)
 		(uuid "2f7dcd17-382c-428f-bac0-5abc2af266db")
 	)
-	(label "BOOT"
-		(at 213.36 54.61 0)
+	(label "SWCLK{slash}BOOT"
+		(at 205.74 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6908,8 +6861,8 @@
 		)
 		(uuid "add87a7c-fbbe-495b-bb86-6c310ae71700")
 	)
-	(label "BOOT"
-		(at 124.46 68.58 0)
+	(label "SWCLK{slash}BOOT"
+		(at 121.92 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
