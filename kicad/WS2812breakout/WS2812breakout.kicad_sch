@@ -976,24 +976,6 @@
 		(color 0 0 0 0)
 		(uuid "d17b5273-0c71-43cc-9542-92db9a4babe2")
 	)
-	(no_connect
-		(at 219.71 127)
-		(uuid "1b6df93c-d553-4d30-ae2d-ed905e35dc44")
-	)
-	(no_connect
-		(at 203.2 100.33)
-		(uuid "1e7263ce-5f01-45e8-b0cb-3181801795d0")
-	)
-	(wire
-		(pts
-			(xy 203.2 100.33) (xy 212.09 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0401475f-27ff-4e9a-9b4c-445c242178e7")
-	)
 	(wire
 		(pts
 			(xy 191.77 127) (xy 204.47 127)
@@ -1013,6 +995,16 @@
 			(type default)
 		)
 		(uuid "170860d3-34c1-47d9-8812-8ca0d670ad61")
+	)
+	(wire
+		(pts
+			(xy 203.2 100.33) (xy 212.09 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25d3d6e2-c138-48c0-8920-af02898296c2")
 	)
 	(wire
 		(pts
@@ -1096,6 +1088,16 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 127) (xy 228.6 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f939bd77-9fc7-4ff6-bdfb-c79df5ef81ed")
+	)
+	(wire
+		(pts
 			(xy 203.2 97.79) (xy 212.09 97.79)
 		)
 		(stroke
@@ -1104,7 +1106,18 @@
 		)
 		(uuid "ff4a125b-dd8f-4f11-b5bf-44afd19f8a5d")
 	)
-	(label "I2C1_SDA"
+	(label "OUT"
+		(at 203.2 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8de275f5-df8e-4d5c-beb2-ab162f285759")
+	)
+	(label "IN"
 		(at 203.2 97.79 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1115,18 +1128,7 @@
 		)
 		(uuid "a10406b4-86e6-4119-b811-104e8b80bafe")
 	)
-	(label "I2C1_SCL"
-		(at 203.2 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "add87a7c-fbbe-495b-bb86-6c310ae71700")
-	)
-	(label "I2C1_SDA"
+	(label "IN"
 		(at 191.77 127 0)
 		(fields_autoplaced yes)
 		(effects
@@ -1136,6 +1138,17 @@
 			(justify left bottom)
 		)
 		(uuid "be21c29f-d989-4834-b595-78b71bbb2eb1")
+	)
+	(label "OUT"
+		(at 228.6 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "da417143-ca40-43fc-96cb-41e75cd475c8")
 	)
 	(symbol
 		(lib_id "power:GND")

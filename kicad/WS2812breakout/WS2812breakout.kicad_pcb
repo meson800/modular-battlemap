@@ -82,9 +82,8 @@
 	(net 0 "")
 	(net 1 "+5V")
 	(net 2 "GND")
-	(net 3 "unconnected-(D3-DOUT-Pad1)")
-	(net 4 "/I2C1_SDA")
-	(net 5 "/I2C1_SCL")
+	(net 3 "/IN")
+	(net 4 "/OUT")
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "1b499916-9c3c-4719-bf71-d4cb4c5b4277")
@@ -332,7 +331,7 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 4 "/I2C1_SDA")
+			(net 3 "/IN")
 			(pinfunction "Pin_2")
 			(pintype "passive")
 			(uuid "574c6bdc-27f7-4021-ad58-ab56babde88e")
@@ -343,9 +342,9 @@
 			(drill 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 5 "/I2C1_SCL")
+			(net 4 "/OUT")
 			(pinfunction "Pin_3")
-			(pintype "passive+no_connect")
+			(pintype "passive")
 			(uuid "140ea9f6-173b-4e88-abac-1802a445d539")
 		)
 		(pad "4" thru_hole oval
@@ -378,7 +377,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C7"
-			(at 0 -1.43 270)
+			(at 0 -1.43 -90)
 			(layer "F.SilkS")
 			(uuid "a904313f-d804-4077-a267-fae14cc3cb8d")
 			(effects
@@ -389,7 +388,7 @@
 			)
 		)
 		(property "Value" "100 nF"
-			(at 0 1.43 270)
+			(at 0 1.43 -90)
 			(layer "F.Fab")
 			(uuid "cd4e6fc9-27a9-4eb1-99a9-a764e888f0f2")
 			(effects
@@ -541,7 +540,7 @@
 			(uuid "7f2000c0-0d16-4ca8-b0a6-e69b99907903")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "780d9bdc-7854-42cc-a9d9-4a3fc71327a7")
 			(effects
@@ -588,7 +587,7 @@
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
 		(property "Reference" "D3"
-			(at 0 -2 270)
+			(at 0 -2 -90)
 			(layer "F.SilkS")
 			(uuid "19b3426c-ca48-490f-b50c-8854ba8901ad")
 			(effects
@@ -599,7 +598,7 @@
 			)
 		)
 		(property "Value" "WS2812B-2020"
-			(at 0 2.2 270)
+			(at 0 2.2 -90)
 			(layer "F.Fab")
 			(uuid "2e776fdc-7360-4e71-b135-3456ddd96d95")
 			(effects
@@ -793,7 +792,7 @@
 			(uuid "61e042b3-d7a4-4dfe-861b-7f61091c5977")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 270)
+			(at 0 0 -90)
 			(layer "F.Fab")
 			(uuid "c8bc59e9-9bbb-4ab7-a6eb-70fbbf1520cc")
 			(effects
@@ -807,9 +806,9 @@
 			(at -0.915 -0.55 90)
 			(size 0.7 0.7)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 3 "unconnected-(D3-DOUT-Pad1)")
+			(net 4 "/OUT")
 			(pinfunction "DOUT")
-			(pintype "output+no_connect")
+			(pintype "output")
 			(uuid "3fb11716-eae2-4ace-bf13-b3353385729d")
 		)
 		(pad "2" smd rect
@@ -825,7 +824,7 @@
 			(at 0.915 0.55 90)
 			(size 0.7 0.7)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 4 "/I2C1_SDA")
+			(net 3 "/IN")
 			(pinfunction "DIN")
 			(pintype "input")
 			(uuid "06ce1396-037d-4522-9cfd-c2c6769829df")
@@ -1050,7 +1049,7 @@
 		(end 122.39 51.7475)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 4)
+		(net 3)
 		(uuid "6206c34a-e8b5-489e-8be5-2fce840ffc69")
 	)
 	(segment
@@ -1058,7 +1057,7 @@
 		(end 124.395 53.7525)
 		(width 0.2)
 		(layer "F.Cu")
-		(net 4)
+		(net 3)
 		(uuid "7e2a392d-5b2b-4472-989f-c19aa8c642bf")
 	)
 )
