@@ -51,7 +51,13 @@
           "min_clearance": 0.0
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -170,7 +176,9 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -197,7 +205,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -215,7 +228,10 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|838200|711200|6dbcc159-e519-4073-90ca-a5dd3db2b99b|88c9a172-f57c-44da-bd76-a8c27a8bbfd0|/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b|/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b|/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b",
+      "pin_to_pin|863600|317500|88c9a172-f57c-44da-bd76-a8c27a8bbfd0|6dbcc159-e519-4073-90ca-a5dd3db2b99b|/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b|/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b|/c3bd2aeb-acec-4e93-ab92-7a030f22ab8b"
+    ],
     "meta": {
       "version": 0
     },
@@ -464,7 +480,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.4,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -483,6 +499,10 @@
       {
         "netclass": "Power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "Power",
+        "pattern": "*VBUS*"
       }
     ]
   },
