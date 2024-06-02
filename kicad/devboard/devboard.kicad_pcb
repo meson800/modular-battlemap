@@ -2666,7 +2666,7 @@
 		(descr "5*11(12.5)")
 		(tags "Capacitor Polarised")
 		(property "Reference" "C4"
-			(at -2.3 1.7 0)
+			(at 5 0.65 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "40e5a8ef-78cd-4d9e-9bb0-ffccaeeb58c0")
