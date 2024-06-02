@@ -6901,6 +6901,17 @@
 		)
 		(uuid "b5b7cd4c-c614-4d71-aa66-fcc35cf98e1b")
 	)
+	(label "USBD+"
+		(at 58.42 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd127622-7310-404c-9057-f735c3ae954d")
+	)
 	(label "I2C1_SDA"
 		(at 167.64 78.74 0)
 		(fields_autoplaced yes)
@@ -6933,6 +6944,17 @@
 			(justify left bottom)
 		)
 		(uuid "f7c89359-12af-4a6b-89e5-76bf1642572d")
+	)
+	(label "USBD-"
+		(at 58.42 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8721a8b-a50c-4e94-ab17-6f88889ddb12")
 	)
 	(symbol
 		(lib_id "mesonlib:pushbutton_5.2x5.2mm_smd")
