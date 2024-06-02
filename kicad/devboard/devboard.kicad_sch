@@ -7242,7 +7242,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_Palconn_UTC16-G"
+		(property "Footprint" "mesonlib:USB_C_Receptacle_Palconn_UTC16-G_pcb_edge"
 			(at 33.02 90.17 0)
 			(effects
 				(font
