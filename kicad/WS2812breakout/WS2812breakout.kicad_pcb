@@ -129,7 +129,7 @@
 		(at 119.477 51.864)
 		(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x04 2.54mm single row")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at -2.002 3.762 90)
 			(layer "F.SilkS")
 			(hide yes)
@@ -416,7 +416,7 @@
 		(at 116.2 53.34 90)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
-		(property "Reference" "C7"
+		(property "Reference" "C1"
 			(at 1.84 -0.9 -90)
 			(layer "F.SilkS")
 			(uuid "a904313f-d804-4077-a267-fae14cc3cb8d")
@@ -626,7 +626,7 @@
 		(at 116.1 58.547 90)
 		(descr "2.0mm x 2.0mm Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf")
 		(tags "LED RGB NeoPixel Nano PLCC-4 2020")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 2.54 -0.508 -90)
 			(layer "F.SilkS")
 			(uuid "19b3426c-ca48-490f-b50c-8854ba8901ad")
