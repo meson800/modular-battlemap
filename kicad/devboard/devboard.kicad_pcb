@@ -5503,7 +5503,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D1"
-			(at 0 -1.43 0)
+			(at 1 1.5 0)
 			(layer "F.SilkS")
 			(uuid "36e587a0-de42-4e42-b381-af0593de9974")
 			(effects
@@ -5735,7 +5735,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R9"
-			(at -2.625 0 -90)
+			(at -2.375 0 -90)
 			(layer "F.SilkS")
 			(uuid "aeacbe87-6dd1-47e1-87c4-456132e390a3")
 			(effects
@@ -14627,6 +14627,26 @@
 		(layer "B.SilkS")
 		(uuid "fe94b623-4a2b-436e-affe-370f439ddb6f")
 	)
+	(gr_line
+		(start 126.15 55.9)
+		(end 127.7 55.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "55df3e31-548e-49ba-aa49-12e0f71362f3")
+	)
+	(gr_line
+		(start 127 54.85)
+		(end 127 57)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "de974e22-14f0-4690-86b2-3926240528af")
+	)
 	(gr_rect
 		(start 101 49)
 		(end 135.5 74)
@@ -14755,28 +14775,128 @@
 			(justify left bottom mirror)
 		)
 	)
+	(gr_text "CL"
+		(at 117.5 54.5 0)
+		(layer "F.SilkS")
+		(uuid "1570f4a2-dd80-4d40-95eb-bb3e39b547f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "D"
+		(at 126.15 55.75 0)
+		(layer "F.SilkS")
+		(uuid "25a357d1-1b47-4328-9416-959bde1a9da0")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "5V"
+		(at 114.75 54.5 0)
+		(layer "F.SilkS")
+		(uuid "2ab73f98-9e74-4c18-a586-4469c8eb0cea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "C"
+		(at 127 55.75 0)
+		(layer "F.SilkS")
+		(uuid "3b116368-ff7e-419f-b30d-22b6c0dcf6ea")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "G"
+		(at 127 57 0)
+		(layer "F.SilkS")
+		(uuid "69c2ece0-1693-4bcb-92ca-6dff48721224")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "33"
+		(at 125.5 57 0)
+		(layer "F.SilkS")
+		(uuid "6d232e6d-89c9-4ae7-9f85-78d721abfb11")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "Reset"
-		(at 104.902 67.945 0)
+		(at 105.5 67.8 0)
 		(layer "F.SilkS")
 		(uuid "92c87c2e-8db5-4fd1-865c-b4ec4b10fdf4")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 1.2 1.2)
+				(thickness 0.25)
 				(bold yes)
 			)
 			(justify left bottom)
 		)
 	)
 	(gr_text "Boot"
-		(at 129.413 71.882 0)
+		(at 130 71.6 0)
 		(layer "F.SilkS")
 		(uuid "ab92c66b-46b9-4a5f-8ce8-35d1f896fa1a")
 		(effects
 			(font
-				(size 1.5 1.5)
-				(thickness 0.3)
+				(size 1.2 1.2)
+				(thickness 0.25)
 				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 122.75 54.5 0)
+		(layer "F.SilkS")
+		(uuid "aeb69826-e9e5-4036-b851-6567c87d4244")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "DA"
+		(at 120 54.5 0)
+		(layer "F.SilkS")
+		(uuid "ce81bdfe-5243-47aa-8347-fa1572e26bd9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
 			)
 			(justify left bottom)
 		)
@@ -15244,7 +15364,7 @@
 		(uuid "6823e51c-2f8e-4249-997f-21ce5e077afc")
 	)
 	(via
-		(at 114 54)
+		(at 113 54.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -15289,7 +15409,7 @@
 		(uuid "9cec0323-ab0d-4364-b956-d21ced9ea943")
 	)
 	(via
-		(at 115 54)
+		(at 114 54.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -15315,7 +15435,7 @@
 		(uuid "b6abff7d-8d24-4e19-b7e2-60d6f146f09a")
 	)
 	(via
-		(at 115 53)
+		(at 114 53.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -15360,7 +15480,7 @@
 		(uuid "e79b29d3-18bd-4d9a-8963-db3eda17f574")
 	)
 	(via
-		(at 114 53)
+		(at 113 53.5)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
